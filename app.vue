@@ -1,5 +1,5 @@
 <script>
-  import 'untcss-reset';
+import 'untcss-reset';
 </script>
 
 <template>

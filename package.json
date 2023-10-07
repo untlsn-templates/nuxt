@@ -16,7 +16,13 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@types/eslint": "^8.44.3",
+    "@typescript-eslint/parser": "^6.7.4",
     "@unocss/nuxt": "^0.56.5",
+    "eslint": "^8.51.0",
+    "eslint-plugin-only-warn": "^1.1.0",
+    "typescript": "^5.2.2",
     "untcss": "^1.2.0",
     "untcss-reset": "^1.0.1"
   }
