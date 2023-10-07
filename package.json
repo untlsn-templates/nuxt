@@ -14,5 +14,10 @@
     "nuxt": "^3.7.4",
     "vue": "^3.3.4",
     "vue-router": "^4.2.5"
+  },
+  "dependencies": {
+    "@unocss/nuxt": "^0.56.5",
+    "untcss": "^1.2.0",
+    "untcss-reset": "^1.0.1"
   }
 }

@@ -1,5 +1,7 @@
+<script>
+  import 'untcss-reset';
+</script>
+
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+  <NuxtWelcome />
 </template>
