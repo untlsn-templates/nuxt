@@ -27,6 +27,8 @@ module.exports = {
 		'quotes': [1, 'single'],
 		'jsx-quotes': 1,
 		'key-spacing': [ 1, { align: 'value' } ],
+		'eqeqeq': 0,
+		'no-multi-spaces': 0,
 
 		'@typescript-eslint/key-spacing': [ 1, { align: 'value' } ],
 		'@typescript-eslint/no-unused-vars': 1,
@@ -40,5 +42,6 @@ module.exports = {
 			switchCase: 0,
 			ignores: []
 		}],
+		'vue/multi-word-component-names': 0,
 	},
 }
