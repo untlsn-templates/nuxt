@@ -7,7 +7,7 @@ import {
 	transformerDirectives,
 	transformerVariantGroup,
 	transformerCompileClass,
-} from 'unocss'
+} from 'unocss';
 import { presetAio } from 'untcss';
 
 export default defineConfig({
@@ -23,4 +23,4 @@ export default defineConfig({
 		transformerVariantGroup(),
 		transformerCompileClass(),
 	],
-})
+});
