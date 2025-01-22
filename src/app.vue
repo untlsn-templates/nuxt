@@ -1,7 +1,11 @@
 <script setup lang="ts">
 import IconNuxt from '~/components/IconNuxt.vue';
 
+const { $trpc } = useNuxtApp();
+
 const count = ref(0);
+
+const { data: welcomeData } = $trpc.welcome.useQuery({ text: 'Nuxt' });
 </script>
 
 <template>
@@ -14,7 +18,7 @@ const count = ref(0);
       <IconNuxt />
     </a>
     <h1 class="dark:text-white font-semibold sm:text-5xl text-4xl text-black text-center">
-      Welcome to Nuxt!
+      {{ welcomeData?.greeting }}
     </h1>
     <div class="flex gap-2 items-center mt-9">
       <button
