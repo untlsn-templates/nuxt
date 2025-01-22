@@ -10,8 +10,13 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@unocss/nuxt": "65.4.3",
+    "@unocss/preset-rem-to-px": "^65.4.3",
     "nuxt": "^3.15.2",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@iconify-json/ph": "^1.2.2"
   }
 }
