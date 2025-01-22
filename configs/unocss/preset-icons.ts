@@ -1,7 +1,6 @@
 import type { Preset } from '@unocss/core';
 import { presetIcons } from 'unocss';
 
-
 /**
  * Use any icon with Pure CSS for UnoCSS.
  *
@@ -16,20 +15,20 @@ import { presetIcons } from 'unocss';
  * @see https://unocss.dev/presets/icons
  */
 export default function presetAppIcons(): Preset {
-	return {
-		name: 'app-icons-preset',
-		rules: [
-			['c_', { content: '"\xA0"' }],
-		],
-		presets: [
-			presetIcons({
-				extraProperties: {
-					'display': 'inline-block',
-					'height': 'auto',
-					'min-height': '1em',
-					'white-space': 'nowrap',
-				},
-			}),
-		]
-	}
+  return {
+    name: 'app-icons-preset',
+    rules: [
+      ['c_', { content: '"\xA0"' }],
+    ],
+    presets: [
+      presetIcons({
+        extraProperties: {
+          'display': 'inline-block',
+          'height': 'auto',
+          'min-height': '1em',
+          'white-space': 'nowrap',
+        },
+      }),
+    ],
+  };
 }

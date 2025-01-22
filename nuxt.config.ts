@@ -1,8 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-11-01',
+  modules: ['@unocss/nuxt', '@nuxt/eslint'],
   devtools: { enabled: true },
-  modules: ['@unocss/nuxt'],
-	srcDir: 'src',
-	css: ['~/assets/style/reset.css']
-})
+  css: ['~/assets/style/reset.css'],
+  srcDir: 'src',
+  compatibilityDate: '2024-11-01',
+  eslint: {
+    config: {
+      stylistic: true,
+    },
+  },
+});

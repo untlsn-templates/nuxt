@@ -10,13 +10,16 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "@unocss/nuxt": "65.4.3",
-    "@unocss/preset-rem-to-px": "^65.4.3",
     "nuxt": "^3.15.2",
     "vue": "latest",
     "vue-router": "latest"
   },
   "devDependencies": {
-    "@iconify-json/ph": "^1.2.2"
+    "@iconify-json/ph": "^1.2.2",
+    "@nuxt/eslint": "0.7.5",
+    "@unocss/nuxt": "65.4.3",
+    "@unocss/preset-rem-to-px": "^65.4.3",
+    "eslint": "^9.18.0",
+    "eslint-plugin-only-warn": "^1.1.0"
   }
 }
