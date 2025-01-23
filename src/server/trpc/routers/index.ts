@@ -6,13 +6,13 @@ export const appRouter = router({
     .input(
       v.parser(
         v.object({
-          text: v.nullish(v.string()),
+          name: v.string(),
         }),
       ),
     )
-    .query(({ input }) => {
+    .mutation(({ input }) => {
       return {
-        greeting: `Welcome to ${input?.text ?? 'Nuxt'}`,
+        greeting: `Hello ${input?.name}`,
       };
     }),
 });

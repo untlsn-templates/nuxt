@@ -10,6 +10,8 @@ import {
 } from 'unocss';
 import presetRemToPx from '@unocss/preset-rem-to-px';
 import presetIcons from './configs/unocss/preset-icons';
+import presetSizeExtension from './configs/unocss/preset-size-extension';
+import presetShadcn from './configs/unocss/preset-shadcn';
 
 export default defineConfig({
   theme: {},
@@ -24,6 +26,8 @@ export default defineConfig({
       },
     }),
     presetIcons(),
+    presetSizeExtension(),
+    presetShadcn(),
   ],
   transformers: [
     transformerDirectives(),
