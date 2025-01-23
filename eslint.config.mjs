@@ -5,6 +5,13 @@ export default withNuxt(
   {
     rules: {
       '@stylistic/semi': [1, 'always'],
+      'vue/block-lang': [1,
+        {
+          script: {
+            lang: 'ts',
+          },
+        },
+      ],
     },
   },
 );
