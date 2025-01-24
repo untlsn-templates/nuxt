@@ -8,9 +8,11 @@ export default defineNuxtConfig({
   ],
   devtools: { enabled: true },
   css: ['~/assets/style/global.css'],
-  srcDir: 'src',
   build: {
     transpile: ['trpc-nuxt'],
+  },
+  future: {
+    compatibilityVersion: 4,
   },
   compatibilityDate: '2024-11-01',
   eslint: {
